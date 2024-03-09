@@ -1,3 +1,25 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Vikas Rajpoot'
+
+theme="hugo-PaperMod"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    title = "About"
+    url = "/about/"
+
+  [[menu.main]]
+    identifier = "work"
+    name = "Work"
+    title = "Work"
+    url = "/work/"
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    title = "Contact"
+    url = "/contact/"
